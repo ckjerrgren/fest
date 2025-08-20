@@ -1,0 +1,124 @@
+/* Generellt */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Navigation */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #ff00aa;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: url('hero-pattern.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 6rem 2rem;
+}
+
+.hero-content {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 2rem;
+  border: 5px solid #fff;
+}
+
+/* Om mig */
+.about {
+  background: #ffe500;
+}
+
+/* Vibe */
+.vibe {
+  background: #00ffd5;
+}
+.vibe img {
+  max-width: 300px;
+  border: 5px solid #000;
+}
+.vibe .pattern {
+  background: url('pattern-repeat.jpg') repeat;
+  height: 100px;
+  margin-top: 2rem;
+}
+
+/* Detaljer */
+.details {
+  background: #ff6b00;
+  color: #fff;
+}
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+.details li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+/* Gåvor */
+.gifts {
+  background: #0099ff;
+  color: #fff;
+}
+.gifts .banner {
+  background: url('banner-pattern.jpg') center/cover;
+  height: 150px;
+  margin-bottom: 2rem;
+}
+
+/* RSVP */
+.rsvp {
+  background: #ff00aa;
+  color: #fff;
+}
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.rsvp input, .rsvp select {
+  padding: 0.5rem;
+  border: 3px solid #000;
+}
+.rsvp button {
+  background: #ffe500;
+  border: 3px solid #000;
+  padding: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+}

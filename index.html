@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M972W474');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30-års fest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M972W474"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#hero">Hem</a></li>
+        <li><a href="#about">Om mig</a></li>
+        <li><a href="#vibe">Stämning</a></li>
+        <li><a href="#details">Detaljer</a></li>
+        <li><a href="#gifts">Gåvor</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>30-års Fest!</h1>
+      <h2>Anna Andersson</h2>
+      <p>10 Juni 2026 · Stockholm</p>
+    </div>
+  </section>
+
+  <!-- Om mig -->
+  <section id="about" class="about">
+    <h2>Om mig</h2>
+    <p>Jag fyller 30! Det måste firas på riktigt. Så jag bjuder in till en episk festivalfest fylld med musik, dans, mat och färg. 
+    Vi firar livet tillsammans!</p>
+  </section>
+
+  <!-- Sätter stämningen -->
+  <section id="vibe" class="vibe">
+    <img src="person.jpg" alt="Person som fyller år">
+    <div class="pattern"></div>
+  </section>
+
+  <!-- Detaljer -->
+  <section id="details" class="details">
+    <h2>Detaljer</h2>
+    <ul>
+      <li><strong>Klädkod:</strong> Färgglad festival!</li>
+      <li><strong>Barn:</strong> Nej, detta är en vuxenfest.</li>
+      <li><strong>Plats:</strong> Hemlig location i Stockholm, skickas ut efter OSA.</li>
+      <li><strong>Transport:</strong> Närmaste tunnelbana + shuttle buss fixas.</li>
+      <li><strong>Extra:</strong> Ta med ditt bästa festhumör!</li>
+    </ul>
+  </section>
+
+  <!-- Gåvor -->
+  <section id="gifts" class="gifts">
+    <div class="banner"></div>
+    <h2>Gåvor</h2>
+    <p>Presenter uppskattas, men viktigast är att du kommer och firar med mig! Vill du ändå ge något så är en personlig överraskning eller en flaska bubbel alltid välkommet.</p>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="rsvp">
+    <h2>RSVP</h2>
+    <form id="rsvp-form">
+      <label for="name">Namn:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-post:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="attendance">Kommer du?</label>
+      <select id="attendance" name="attendance" required>
+        <option value="">Välj...</option>
+        <option value="yes">Ja, självklart!</option>
+        <option value="no">Tyvärr inte</option>
+      </select>
+
+      <button type="submit">Skicka</button>
+    </form>
+    <p id="response-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
